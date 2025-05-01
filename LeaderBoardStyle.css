@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #004d00; /* Dark Green Background */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background: #002200; /* Darker Green for Contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.5); /* Gold Glow */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin-right: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #003300; /* Dark Green Input Background */
+    color: white;
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: gold; /* Gold Buttons */
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #d4af37; /* Darker Gold on Hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #003300; /* Dark Green Table */
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+    color: white;
+}
+
+th {
+    background-color: gold; /* Gold Header */
+    color: black;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #004d00; /* Alternating Row Color */
+}
